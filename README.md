@@ -1,6 +1,6 @@
 <div align="center" justify="center">
 
-<h2> 🔮 Complementary 🔮 </h2>
+<h2> 🧩 Complementary 🧩 </h2>
 
 A Discord theme which only provides some QOL enhancements that can be used on top of the official ones
 
