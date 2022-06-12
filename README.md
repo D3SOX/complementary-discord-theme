@@ -2,7 +2,7 @@
 
 <h2> 🔮 Complementary 🔮 </h2>
 
-A Discord theme which only provides some QOL enhancements that can be used on top of Discord's official themes
+A Discord theme which only provides some QOL enhancements that can be used on top of the official ones
 
 </div>
 
