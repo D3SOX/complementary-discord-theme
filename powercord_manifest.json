@@ -1,0 +1,8 @@
+{
+  "name": "Complementary",
+  "description": "QOL enhancements for Discord",
+  "author": "D3SOX",
+  "version": "1.0",
+  "license": "MIT",
+  "theme": "complementary.theme.css"
+}

@@ -1,0 +1,25 @@
+/*
+ * @name Complementary
+ * @description QOL enhancements for Discord
+ * @author D3SOX
+ * @version 1.0
+*/
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css");
+@import url("https://crearts-community.github.io/Settings-Icons/src/source.css");
+@import url("https://crearts-community.github.io/Settings-Icons/modules/plugins/powercord.css");
+@import url("https://crearts-community.github.io/Context-Icons/theme.css");
+@import url("https://crearts-community.github.io/Context-Icons/modules/plugins/powercord.css");
+@import url("https://snappercord.github.io/codeblock-icons/dist-default.css");
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/JoyPixels.css");
+:root {
+  --font-primary: "SF Pro Display", sans-serif;
+  --font-display: "SF Pro Display", sans-serif;
+  --columns: 2;
+  --guildsize: 45;
+  --guildgap: 3;
+  --aligndms: 0;
+}
+
+code {
+  font-family: "SF Mono", monospace !important;
+}
