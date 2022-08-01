@@ -11,6 +11,10 @@
 @import url("https://crearts-community.github.io/Context-Icons/modules/plugins/powercord.css");
 @import url("https://snappercord.github.io/codeblock-icons/dist-default.css");
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/JoyPixels.css");
+.item-1OdjEX:not(#message-add-reaction):not(#message-apps) > .iconContainer-1-SsTR {
+  display: none;
+}
+
 :root {
   --font-primary: "SF Pro Display", sans-serif;
   --font-display: "SF Pro Display", sans-serif;

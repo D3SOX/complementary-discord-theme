@@ -15,6 +15,10 @@
 // ContextMenu Icons
 @import url("https://crearts-community.github.io/Context-Icons/theme.css");
 @import url("https://crearts-community.github.io/Context-Icons/modules/plugins/powercord.css");
+// Workaround for https://github.com/CreArts-Community/Context-Icons/issues/19
+.item-1OdjEX:not(#message-add-reaction):not(#message-apps) > .iconContainer-1-SsTR {
+  display: none;
+}
 
 // Codeblock icons
 @import url("https://snappercord.github.io/codeblock-icons/dist-default.css");
