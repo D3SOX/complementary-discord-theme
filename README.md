@@ -25,12 +25,15 @@ A Discord theme which only provides some QOL enhancements that can be used on to
 
 # 📥 Installation
 
-- BetterDiscord
+- [Topaz](https://github.com/GooseMod/topaz)
+  - Open the themes settings, paste `D3SOX/complementary-discord-theme` and press <kbd>Enter</kbd> 
 
-  - Drop the <kbd>complementary.theme.css</kbd> in your themes folder (⚠️ You won't get updates)
-
-- Powercord
+- [Powercord](https://github.com/powercord-org/powercord/)/[Replugged](https://github.com/replugged-org/replugged)
   - Open your themes folder and clone this repository
     ```sh
     git clone https://github.com/D3SOX/complementary-discord-theme
     ```
+
+- [BetterDiscord](https://github.com/BetterDiscord/BetterDiscord)
+
+  - Drop the <kbd>complementary.theme.css</kbd> in your themes folder (⚠️ You won't get updates)
