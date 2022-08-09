@@ -28,6 +28,10 @@ code {
   font-family: "SF Mono", monospace !important;
 }
 
+[class^=toolbar] a[href="https://support.discord.com"] {
+  display: none;
+}
+
 [class*=title-][class*=container-] [class*=toolbar-] [class*=search-] [class*=searchBar-] {
   background: none !important;
   width: 24px;

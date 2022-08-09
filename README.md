@@ -14,6 +14,7 @@ A Discord theme which only provides some QOL enhancements that can be used on to
 - [Code block Icons](https://github.com/snappercord/codeblock-icons)
 - [JoyPixels emojis](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/EmojiReplace)
 - Collapsed Search Bar
+- Hide Help Button
 - Custom Fonts
 
 # ❕ Required Fonts
