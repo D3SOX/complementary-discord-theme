@@ -26,7 +26,7 @@ A Discord theme which only provides some QOL enhancements that can be used on to
 # 📥 Installation
 
 - [OpenAsar](https://github.com/GooseMod/OpenAsar)
-  - Open your `settings.json` and set `openasar.css` to `@import url(https://d3sox.github.io/complementary-discord-theme/complementary.theme.css);` 
+  - Open the config window, click on Theming and add `@import url(https://d3sox.github.io/complementary-discord-theme/complementary.theme.css);` 
 
 - [Powercord](https://github.com/powercord-org/powercord/)/[Replugged](https://github.com/replugged-org/replugged)
   - Open your themes folder and clone this repository
