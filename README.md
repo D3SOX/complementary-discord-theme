@@ -25,8 +25,11 @@ A Discord theme which only provides some QOL enhancements that can be used on to
 
 # 📥 Installation
 
-- [OpenAsar](https://github.com/GooseMod/OpenAsar)
-  - Open the config window, click on Theming and add `@import url(https://d3sox.github.io/complementary-discord-theme/complementary.theme.css);` 
+- [Vencord](https://github.com/Vendicated/Vencord)/[OpenAsar](https://github.com/GooseMod/OpenAsar)
+  - Find the CSS Editor
+    - Vencord: Open settings, click on Vencord, then on the right side click on "Open QuickCSS File"
+    - OpenAsar: Open settings, scroll to the bottom on the left and click on the OpenAsar version, then click on Theming
+  - Add a new line with this content: `@import url(https://d3sox.github.io/complementary-discord-theme/complementary.theme.css);` 
 
 - [Powercord](https://github.com/powercord-org/powercord/)/[Replugged](https://github.com/replugged-org/replugged)
   - Open your themes folder and clone this repository
