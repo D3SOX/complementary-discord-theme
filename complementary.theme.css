@@ -58,3 +58,19 @@ code {
   color: var(--text-muted);
   transform: scale(0.8);
 }
+
+[class^=channel-] > div > [href="/store"],
+[class^=channelTextArea] [class^=buttons-] > button,
+[class^=upsellVisible-],
+[class^=premiumIconWrapper],
+[class^=characterCount-] [class*=upsell-],
+[class^=emojiSection-] [class*=shinyButton-],
+[class*=tryItOutSection-],
+[class^=premiumIcon],
+[class^=customizationSection-] + [class^=upsellContainer-],
+[class^=customizationSection-][class*=disabled-],
+[class*=bannerNitroUpsell-],
+[class^=imageUploaderHint-],
+[class^=imagePickerContainer-] > [class^=optionBox-]:nth-child(2) {
+  display: none !important;
+}

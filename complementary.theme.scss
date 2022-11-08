@@ -68,3 +68,21 @@ code {
   color: var(--text-muted);
   transform: scale(0.8);
 }
+
+// Hide Nitro upselling (by Vendicated & msm8916)
+[class^="channel-"] > div > [href="/store"], // Nitro Button above DM List
+[class^="channelTextArea"] [class^="buttons-"] > button, // Gift Button
+[class^="upsellVisible-"], // Banner Nitro Upsell Header in the user modal
+[class^="premiumIconWrapper"], // Nitro Icon in top right on Banners
+[class^="characterCount-"] [class*="upsell-"], // "Send longer Messages with Discord Nitro!"
+[class^="emojiSection-"] [class*="shinyButton-"], // "Get Nitro" button in Emoji/Sticker modal"
+[class*="tryItOutSection-"], //try nitro banner section on profile editor
+[class^="premiumIcon"], // Try remove booster badge
+[class^="customizationSection-"] + [class^="upsellContainer-"], // Per server profile customizations
+[class^="customizationSection-"][class*="disabled-"], // Per server profile customizations
+[class*="bannerNitroUpsell-"], // "Unlock Banner" in profile editor
+[class^="imageUploaderHint-"],
+[class^="imagePickerContainer-"] > [class^="optionBox-"]:nth-child(2) // Remove gif option from profile pic upload option
+{
+  display: none !important;
+}
