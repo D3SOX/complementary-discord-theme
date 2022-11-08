@@ -40,3 +40,15 @@ A Discord theme which only provides some QOL enhancements that can be used on to
 - [BetterDiscord](https://github.com/BetterDiscord/BetterDiscord)
 
   - Drop the <kbd>complementary.theme.css</kbd> in your themes folder (⚠️ You won't get updates)
+
+# 🧮 Customize Server Columns
+
+Add and adjust the following CSS
+```css
+:root {
+  --columns: 2;
+  --guildsize: 40;
+  --guildgap: 3;
+  --aligndms: 0;
+}
+```
