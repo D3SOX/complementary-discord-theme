@@ -2,7 +2,7 @@
  * @name Complementary
  * @description QOL enhancements for Discord
  * @author D3SOX
- * @version 1.0
+ * @version 1.1
 */
 
 // Discord Server Columns
@@ -12,8 +12,8 @@
 @import url("https://crearts-community.github.io/Settings-Icons/clients/settings-icons.theme.css");
 
 // ContextMenu Icons
-@import url("https://d3sox.github.io/Context-Icons/theme.css");
-@import url("https://d3sox.github.io/Context-Icons/modules/plugins/powercord.css");
+//@import url("https://d3sox.github.io/Context-Icons/theme.css");
+//@import url("https://d3sox.github.io/Context-Icons/modules/plugins/powercord.css");
 
 // Codeblock icons
 @import url("https://snappercord.github.io/codeblock-icons/dist-default.css");
@@ -85,4 +85,18 @@ code {
 [class^="imagePickerContainer-"] > [class^="optionBox-"]:nth-child(2) // Remove gif option from profile pic upload option
 {
   display: none !important;
+}
+
+// My additions
+[class^="premiumTab"], // Nitro settings tab
+#user-settings-cog-Discord_Nitro, // Nitro settings right click entry
+[class^="subscribeAction"], // Nitro upselling in server boosting screen
+[class^="upsellBanner"] // Nitro upselling in screen share
+{
+  display: none !important;
+}
+// Disable Nitro button in custom emotes popup when emote is not available
+[class^="emojiSection"] > div > div > div > a {
+  color: inherit;
+  pointer-events: none;
 }

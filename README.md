@@ -10,7 +10,6 @@ A Discord theme which only provides some QOL enhancements that can be used on to
 
 - [Server Columns](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/ServerColumns)
 - [Settings Icons](https://github.com/crearts-community/Settings-Icons)
-- [Context menu Icons](https://github.com/CreArts-Community/Context-Icons)
 - [Code block Icons](https://github.com/snappercord/codeblock-icons)
 - [JoyPixels emojis](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/EmojiReplace)
 - Collapsed Search Bar
