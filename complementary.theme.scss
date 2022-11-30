@@ -91,7 +91,9 @@ code {
 [class^="premiumTab"], // Nitro settings tab
 #user-settings-cog-Discord_Nitro, // Nitro settings right click entry
 [class^="subscribeAction"], // Nitro upselling in server boosting screen
-[class^="upsellBanner"] // Nitro upselling in screen share
+[class^="upsellBanner"], // Nitro upselling in screen share
+#emoji-picker-tab-panel > div:first-child > div:nth-child(2) // Nitro call screen reactions
+// [aria-label="Enable more fun reactions with Nitro"] // Alternative selector
 {
   display: none !important;
 }

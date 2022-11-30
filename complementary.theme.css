@@ -76,7 +76,8 @@ code {
 [class^=premiumTab],
 #user-settings-cog-Discord_Nitro,
 [class^=subscribeAction],
-[class^=upsellBanner] {
+[class^=upsellBanner],
+#emoji-picker-tab-panel > div:first-child > div:nth-child(2) {
   display: none !important;
 }
 
