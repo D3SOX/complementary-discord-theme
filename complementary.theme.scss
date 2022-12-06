@@ -93,6 +93,7 @@ code {
 [class^="subscribeAction"], // Nitro upselling in server boosting screen
 [class^="upsellBanner"], // Nitro upselling in screen share
 [class^="userPopoutInner"] > [class^="wrapper"] > [class^="banner"], // Nitro upselling in user popout when hovering over banner
+[class^="tierCtaContainer"], [class^="tierCtaContainer"] + [class^="shelf"], // Nitro upselling in activities
 #emoji-picker-tab-panel > div:first-child > div:nth-child(2) // Nitro call screen reactions
 // [aria-label="Enable more fun reactions with Nitro"] // Alternative selector
 {
