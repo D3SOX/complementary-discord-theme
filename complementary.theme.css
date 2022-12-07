@@ -79,7 +79,8 @@ code {
 [class^=upsellBanner],
 [class^=userPopoutInner] > [class^=wrapper] > [class^=banner],
 [class^=tierCtaContainer], [class^=tierCtaContainer] + [class^=shelf],
-[class^=channel-] > div > [href="/snowsgiving"] #emoji-picker-tab-panel > div:first-child > div:nth-child(2) {
+[class^=channel-] > div > [href="/snowsgiving"],
+#emoji-picker-tab-panel > div:first-child > div:nth-child(2) {
   display: none !important;
 }
 
