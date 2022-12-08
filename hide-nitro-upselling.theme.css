@@ -27,6 +27,7 @@
 [class^=userPopoutInner] > [class^=wrapper] > [class^=banner],
 [class^=tierCtaContainer], [class^=tierCtaContainer] + [class^=shelf],
 a[href*="/snowsgiving"], [class^=customizationSection] > [class^=limitedFeatureBorder],
+[class^=upsellOverlayContainer-],
 [id^=popout] [class*=contentPremium],
 #emoji-picker-tab-panel > [class*=emojiPickerHeader]:first-child > [class^=tooltipContainer]:nth-child(2) {
   display: none !important;
