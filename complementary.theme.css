@@ -8,6 +8,7 @@
 @import url("https://crearts-community.github.io/Settings-Icons/clients/settings-icons.theme.css");
 @import url("https://snappercord.github.io/codeblock-icons/dist-default.css");
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/JoyPixels.css");
+@import url("https://d3sox.github.io/complementary/hide-nitro-upselling.theme.css");
 :root {
   --font-primary: "SF Pro Display", sans-serif;
   --font-display: "SF Pro Display", sans-serif;
@@ -55,37 +56,4 @@ code {
 [class*=toolbar-] [class*=open-] [class*=searchBar-] svg {
   color: var(--text-muted);
   transform: scale(0.8);
-}
-
-[class^=channel-] > div > [href="/store"],
-[class^=channelTextArea] [class^=buttons-] > button,
-[class^=upsellVisible-],
-[class^=premiumIconWrapper],
-[class^=characterCount-] [class*=upsell-],
-[class^=emojiSection-] [class*=shinyButton-],
-[class*=tryItOutSection-],
-[class^=premiumIcon],
-[class^=customizationSection-] + [class^=upsellContainer-],
-[class^=customizationSection-][class*=disabled-],
-[class*=bannerNitroUpsell-],
-[class^=imageUploaderHint-],
-[class^=imagePickerContainer-] > [class^=optionBox-]:nth-child(2) {
-  display: none !important;
-}
-
-[class^=premiumTab],
-#user-settings-cog-Discord_Nitro,
-[class^=subscribeAction],
-[class^=upsellBanner],
-[class^=userPopoutInner] > [class^=wrapper] > [class^=banner],
-[class^=tierCtaContainer], [class^=tierCtaContainer] + [class^=shelf],
-a[href*="/snowsgiving"], [class^=customizationSection] > [class^=limitedFeatureBorder],
-[id^=popout] [class*=contentPremium],
-#emoji-picker-tab-panel > [class*=emojiPickerHeader]:first-child > [class^=tooltipContainer]:nth-child(2) {
-  display: none !important;
-}
-
-[class^=emojiSection] > div > div > div > a {
-  color: inherit;
-  pointer-events: none;
 }

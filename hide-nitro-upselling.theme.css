@@ -1,0 +1,38 @@
+/*
+ * @name Hide Nitro Upselling
+ * @description Hide all Nitro upselling
+ * @author Vendicated, msm8916, D3SOX
+ * @version 1.0
+*/
+[class^=channel-] > div > [href="/store"],
+[class^=channelTextArea] [class^=buttons-] > button,
+[class^=upsellVisible-],
+[class^=premiumIconWrapper],
+[class^=characterCount-] [class*=upsell-],
+[class^=emojiSection-] [class*=shinyButton-],
+[class*=tryItOutSection-],
+[class^=premiumIcon],
+[class^=customizationSection-] + [class^=upsellContainer-],
+[class^=customizationSection-][class*=disabled-],
+[class*=bannerNitroUpsell-],
+[class^=imageUploaderHint-],
+[class^=imagePickerContainer-] > [class^=optionBox-]:nth-child(2) {
+  display: none !important;
+}
+
+[class^=premiumTab],
+#user-settings-cog-Discord_Nitro,
+[class^=subscribeAction],
+[class^=upsellBanner],
+[class^=userPopoutInner] > [class^=wrapper] > [class^=banner],
+[class^=tierCtaContainer], [class^=tierCtaContainer] + [class^=shelf],
+a[href*="/snowsgiving"], [class^=customizationSection] > [class^=limitedFeatureBorder],
+[id^=popout] [class*=contentPremium],
+#emoji-picker-tab-panel > [class*=emojiPickerHeader]:first-child > [class^=tooltipContainer]:nth-child(2) {
+  display: none !important;
+}
+
+[class^=emojiSection] > div > div > div > a {
+  color: inherit;
+  pointer-events: none;
+}
