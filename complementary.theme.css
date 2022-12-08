@@ -79,7 +79,7 @@ code {
 [class^=upsellBanner],
 [class^=userPopoutInner] > [class^=wrapper] > [class^=banner],
 [class^=tierCtaContainer], [class^=tierCtaContainer] + [class^=shelf],
-[class^=channel-] > div > [href="/snowsgiving"], [class^=customizationSection] > [class^=limitedFeatureBorder],
+a[href*="/snowsgiving"], [class^=customizationSection] > [class^=limitedFeatureBorder],
 [id^=popout] [class*=contentPremium],
 #emoji-picker-tab-panel > [class*=emojiPickerHeader]:first-child > [class^=tooltipContainer]:nth-child(2) {
   display: none !important;
