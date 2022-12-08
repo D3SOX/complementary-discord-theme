@@ -81,7 +81,7 @@ code {
 [class^=tierCtaContainer], [class^=tierCtaContainer] + [class^=shelf],
 [class^=channel-] > div > [href="/snowsgiving"], [class^=customizationSection] > [class^=limitedFeatureBorder],
 [id^=popout] [class*=contentPremium],
-#emoji-picker-tab-panel > div:first-child > div:nth-child(2) {
+#emoji-picker-tab-panel > [class*=emojiPickerHeader]:first-child > [class^=tooltipContainer]:nth-child(2) {
   display: none !important;
 }
 

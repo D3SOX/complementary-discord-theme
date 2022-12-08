@@ -96,7 +96,7 @@ code {
 [class^="tierCtaContainer"], [class^="tierCtaContainer"] + [class^="shelf"], // Nitro upselling in activities
 [class^="channel-"] > div > [href="/snowsgiving"], [class^="customizationSection"] > [class^="limitedFeatureBorder"], // Snowsgiving bs
 [id^="popout"] [class*="contentPremium"], // Nitro upselling popups on settings (e.g. avatar decorations)
-#emoji-picker-tab-panel > div:first-child > div:nth-child(2) // Nitro call screen reactions
+#emoji-picker-tab-panel > [class*="emojiPickerHeader"]:first-child > [class^="tooltipContainer"]:nth-child(2) // Nitro call screen reactions
 // [aria-label="Enable more fun reactions with Nitro"] // Alternative selector
 {
   display: none !important;
