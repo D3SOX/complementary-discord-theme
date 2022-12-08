@@ -39,7 +39,7 @@ A Discord theme which only provides some QOL enhancements that can be used on to
 
 - [BetterDiscord](https://github.com/BetterDiscord/BetterDiscord)
 
-  - Drop the [<kbd>complementary.betterdiscord.theme.css</kbd>](https://raw.githubusercontent.com/D3SOX/complementary-discord-theme/master/complementary.betterdiscord.theme.scss) in your themes folder (⚠️ You won't get updates)
+  - Drop the [`complementary.betterdiscord.theme.css`](https://raw.githubusercontent.com/D3SOX/complementary-discord-theme/master/complementary.betterdiscord.theme.css) in your themes folder (⚠️ You won't get updates)
 
 # 🧮 Customize Server Columns
 
