@@ -32,7 +32,8 @@ a[href*="/snowsgiving"], [class^=customizationSection] > [class^=limitedFeatureB
 [id^=popout] [class*=contentPremium],
 [class^=sidebar] > [class^=container] > [class^=wrapper] > [class^=container] > [class^=content],
 [class^=themeEditor],
-[class*=cozyMessage] > [class*=buttonContainer] > [class*=buttons] > [class*=wrapper] > [aria-label*="Add Super Reaction"] [id^=popout] [class*=colorPremiumGradient],
+[class*=cozyMessage] > [class*=buttonContainer] > [class*=buttons] > [class*=wrapper] > [aria-label*="Add Super Reaction"],
+[id^=popout] [class*=colorPremiumGradient],
 #message [class*=colorPremiumGradient],
 #emoji-picker-tab-panel > [class*=emojiPickerHeader]:first-child > [class^=tooltipContainer]:nth-child(2) {
   display: none !important;
