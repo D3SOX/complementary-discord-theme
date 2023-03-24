@@ -51,3 +51,7 @@ a[href*="/snowsgiving"], [class^="customizationSection"] > [class^="limitedFeatu
   color: inherit;
   pointer-events: none;
 }
+// Disable clicking on super reactions
+[aria-label*="Super reacted by"] [class^="reactionInner"] {
+    pointer-events: none;
+}

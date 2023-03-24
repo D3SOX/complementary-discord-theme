@@ -46,3 +46,7 @@ a[href*="/snowsgiving"], [class^=customizationSection] > [class^=limitedFeatureB
   color: inherit;
   pointer-events: none;
 }
+
+[aria-label*="Super reacted by"] [class^=reactionInner] {
+  pointer-events: none;
+}
