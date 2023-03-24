@@ -39,6 +39,7 @@ a[href*="/snowsgiving"], [class^="customizationSection"] > [class^="limitedFeatu
 [class*="cozyMessage"] > [class*="buttonContainer"] > [class*="buttons"] > [class*="wrapper"] > [aria-label*="Add Super Reaction"], // Message Hover menu super reactions
 [id^="popout"] [class*="colorPremiumGradient"], // Message Hover overflow menu super reactions
 #message [class*="colorPremiumGradient"], // Message right click menu super reactions
+[class^="burstReactionTooltipPrompt"], // Super reaction tooltip Nitro upsell
 [aria-controls="billing-tab"], // Settings billing tab
 #emoji-picker-tab-panel > [class*="emojiPickerHeader"]:first-child > [class^="tooltipContainer"]:nth-child(2) // Nitro call screen reactions
 {
