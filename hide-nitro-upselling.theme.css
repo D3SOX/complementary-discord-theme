@@ -47,6 +47,6 @@ a[href*="/snowsgiving"], [class^=customizationSection] > [class^=limitedFeatureB
   pointer-events: none;
 }
 
-[aria-label*="Super reacted by"] [class^=reactionInner] {
+[class^=reactionInner][aria-label*="burst react"] {
   pointer-events: none;
 }
