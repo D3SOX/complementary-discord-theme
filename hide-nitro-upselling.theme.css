@@ -36,6 +36,7 @@ a[href*="/snowsgiving"], [class^=customizationSection] > [class^=limitedFeatureB
 [id^=popout] [class*=colorPremiumGradient],
 #message [class*=colorPremiumGradient],
 [class^=burstReactionTooltipPrompt],
+[aria-label="Add Super Reaction"],
 [aria-controls=billing-tab],
 #emoji-picker-tab-panel > [class*=emojiPickerHeader]:first-child > [class^=tooltipContainer]:nth-child(2) {
   display: none !important;
