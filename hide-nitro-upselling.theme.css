@@ -22,6 +22,7 @@
 
 [class^=premiumTab],
 #user-settings-cog-Discord_Nitro,
+#user-settings-cog-Billing,
 [class^=subscribeAction],
 [class^=upsellBanner],
 [class^=userPopoutInner] > [class^=wrapper] > [class^=banner],
@@ -37,7 +38,7 @@ a[href*="/snowsgiving"], [class^=customizationSection] > [class^=limitedFeatureB
 #message [class*=colorPremiumGradient],
 [class^=burstReactionTooltipPrompt],
 [aria-label="Add Super Reaction"],
-[aria-controls=billing-tab],
+[class^=side-] > [class^=header-] + [class^=premiumTab] + [class^=item-] + [class^=item-] + [class^=item-] + [class^=item-],
 #emoji-picker-tab-panel > [class*=emojiPickerHeader]:first-child > [class^=tooltipContainer]:nth-child(2) {
   display: none !important;
 }
