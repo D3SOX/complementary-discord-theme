@@ -35,6 +35,7 @@ a[href*="/snowsgiving"], [class^="customizationSection"] > [class^="limitedFeatu
 [class^="upsellOverlayContainer-"], // Upsell overlay in profiles tab
 [class*="sansAttachButton"] > [class^="buttons"] > [class^="container"], // Christmas gifting button
 [id^="popout"] [class*="contentPremium"], // Nitro upselling popups on settings (e.g. avatar decorations)
+[class^="birthdayFeatureBorder"], // Birthday avatar decoration upselling
 [class^="sidebar"] > [class^="container"] > [class^="wrapper"] > [class^="container"] > [class^="content"], // Nitro upselling above profile (e.g. super reactions)
 [class^="themeEditor"], // Nitro theme upselling
 [class*="cozyMessage"] > [class*="buttonContainer"] > [class*="buttons"] > [class*="wrapper"] > [aria-label*="Add Super Reaction"], // Message Hover menu super reactions

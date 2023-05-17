@@ -31,6 +31,7 @@ a[href*="/snowsgiving"], [class^=customizationSection] > [class^=limitedFeatureB
 [class^=upsellOverlayContainer-],
 [class*=sansAttachButton] > [class^=buttons] > [class^=container],
 [id^=popout] [class*=contentPremium],
+[class^=birthdayFeatureBorder],
 [class^=sidebar] > [class^=container] > [class^=wrapper] > [class^=container] > [class^=content],
 [class^=themeEditor],
 [class*=cozyMessage] > [class*=buttonContainer] > [class*=buttons] > [class*=wrapper] > [aria-label*="Add Super Reaction"],
