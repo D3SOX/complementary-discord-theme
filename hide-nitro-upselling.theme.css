@@ -28,6 +28,7 @@
 [class^=userPopoutInner] > [class^=wrapper] > [class^=banner],
 [class^=userPopoutInner] > [class^=containerWrapper],
 [class*=premiumFeatureBannerBackground],
+[class^=userPanelInner] > [class*=inSidebar],
 [class^=tierCtaContainer], [class^=tierCtaContainer] + [class^=shelf],
 a[href*="/snowsgiving"], [class^=customizationSection] > [class^=limitedFeatureBorder],
 [class^=upsellOverlayContainer-],
