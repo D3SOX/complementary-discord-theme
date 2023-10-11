@@ -55,3 +55,7 @@ a[href*="/snowsgiving"], [class^=customizationSection] > [class^=limitedFeatureB
 [class^=reactionInner][aria-label*="burst react"] {
   pointer-events: none;
 }
+
+[class^=userPopoutInner] > [class^=containerWrapper] {
+  top: 0 !important;
+}

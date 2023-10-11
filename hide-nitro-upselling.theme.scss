@@ -60,3 +60,8 @@ a[href*="/snowsgiving"], [class^="customizationSection"] > [class^="limitedFeatu
 [class^="reactionInner"][aria-label*="burst react"] {
     pointer-events: none;
 }
+
+// Fix top Avatar decorations upselling in user popout
+[class^="userPopoutInner"] > [class^="containerWrapper"] {
+  top: 0 !important;
+}
