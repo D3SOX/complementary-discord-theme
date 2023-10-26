@@ -4,20 +4,20 @@
  * @author Vendicated, msm8916, D3SOX
  * @version 1.0
 */
-[class^=channel-] > div > [href="/store"],
-[class^=channel-] > div > [href="/shop"],
-[class^=channelTextArea] [class^=buttons-] > button,
-[class^=upsellVisible-],
+[class^=channel_] > div > [href="/store"],
+[class^=channel_] > div > [href="/shop"],
+[class^=channelTextArea] [class^=buttons_] > button,
+[class^=upsellVisible_],
 [class^=premiumIconWrapper],
-[class^=characterCount-] [class*=upsell-],
-[class^=emojiSection-] [class*=shinyButton-],
-[class*=tryItOutSection-],
+[class^=characterCount_] [class*=upsell_],
+[class^=emojiSection_] [class*=shinyButton_],
+[class*=tryItOutSection_],
 [class^=premiumIcon],
-[class^=customizationSection-] + [class^=upsellContainer-],
-[class^=customizationSection-][class*=disabled-],
-[class*=bannerNitroUpsell-],
-[class^=imageUploaderHint-],
-[class^=imagePickerContainer-] > [class^=optionBox-]:nth-child(2) {
+[class^=customizationSection_] + [class^=upsellContainer_],
+[class^=customizationSection_][class*=disabled_],
+[class*=bannerNitroUpsell_],
+[class^=imageUploaderHint_],
+[class^=imagePickerContainer_] > [class^=optionBox_]:nth-child(2) {
   display: none !important;
 }
 
@@ -33,7 +33,7 @@
 [class^=userPanelInner] > [class*=inSidebar],
 [class^=tierCtaContainer], [class^=tierCtaContainer] + [class^=shelf],
 a[href*="/snowsgiving"], [class^=customizationSection] > [class^=limitedFeatureBorder],
-[class^=upsellOverlayContainer-],
+[class^=upsellOverlayContainer_],
 [class*=sansAttachButton] > [class^=buttons] > [class^=container],
 [id^=popout] [class*=contentPremium],
 [class^=birthdayFeatureBorder],
@@ -44,7 +44,7 @@ a[href*="/snowsgiving"], [class^=customizationSection] > [class^=limitedFeatureB
 #message [class*=colorPremiumGradient],
 [class^=burstReactionTooltipPrompt],
 [aria-label="Add Super Reaction"],
-[class^=side-] > [class^=header-] + [class^=premiumTab] + [class^=item-] + [class^=item-] + [class^=item-] + [class^=item-],
+[class^=side_] > [class^=header_] + [class^=premiumTab] + [class^=item_] + [class^=item_] + [class^=item_] + [class^=item_],
 #emoji-picker-tab-panel > [class*=emojiPickerHeader]:first-child > [class^=tooltipContainer]:nth-child(2) {
   display: none !important;
 }

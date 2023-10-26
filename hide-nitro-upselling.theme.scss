@@ -6,20 +6,20 @@
 */
 
 // Hide Nitro upselling (by Vendicated & msm8916)
-[class^="channel-"] > div > [href="/store"], // Nitro Button above DM List
-[class^="channel-"] > div > [href="/shop"], // Shop Button above DM List
-[class^="channelTextArea"] [class^="buttons-"] > button, // Gift Button
-[class^="upsellVisible-"], // Banner Nitro Upsell Header in the user modal
+[class^="channel_"] > div > [href="/store"], // Nitro Button above DM List
+[class^="channel_"] > div > [href="/shop"], // Shop Button above DM List
+[class^="channelTextArea"] [class^="buttons_"] > button, // Gift Button
+[class^="upsellVisible_"], // Banner Nitro Upsell Header in the user modal
 [class^="premiumIconWrapper"], // Nitro Icon in top right on Banners
-[class^="characterCount-"] [class*="upsell-"], // "Send longer Messages with Discord Nitro!"
-[class^="emojiSection-"] [class*="shinyButton-"], // "Get Nitro" button in Emoji/Sticker modal"
-[class*="tryItOutSection-"], //try nitro banner section on profile editor
+[class^="characterCount_"] [class*="upsell_"], // "Send longer Messages with Discord Nitro!"
+[class^="emojiSection_"] [class*="shinyButton_"], // "Get Nitro" button in Emoji/Sticker modal"
+[class*="tryItOutSection_"], //try nitro banner section on profile editor
 [class^="premiumIcon"], // Try remove booster badge
-[class^="customizationSection-"] + [class^="upsellContainer-"], // Per server profile customizations
-[class^="customizationSection-"][class*="disabled-"], // Per server profile customizations
-[class*="bannerNitroUpsell-"], // "Unlock Banner" in profile editor
-[class^="imageUploaderHint-"],
-[class^="imagePickerContainer-"] > [class^="optionBox-"]:nth-child(2) // Remove gif option from profile pic upload option
+[class^="customizationSection_"] + [class^="upsellContainer_"], // Per server profile customizations
+[class^="customizationSection_"][class*="disabled_"], // Per server profile customizations
+[class*="bannerNitroUpsell_"], // "Unlock Banner" in profile editor
+[class^="imageUploaderHint_"],
+[class^="imagePickerContainer_"] > [class^="optionBox_"]:nth-child(2) // Remove gif option from profile pic upload option
 {
   display: none !important;
 }
@@ -37,7 +37,7 @@
 [class^="userPanelInner"] > [class*="inSidebar"], // Avatar decorations upselling in user side panel
 [class^="tierCtaContainer"], [class^="tierCtaContainer"] + [class^="shelf"], // Nitro upselling in activities
 a[href*="/snowsgiving"], [class^="customizationSection"] > [class^="limitedFeatureBorder"], // Snowsgiving bs
-[class^="upsellOverlayContainer-"], // Upsell overlay in profiles tab
+[class^="upsellOverlayContainer_"], // Upsell overlay in profiles tab
 [class*="sansAttachButton"] > [class^="buttons"] > [class^="container"], // Christmas gifting button
 [id^="popout"] [class*="contentPremium"], // Nitro upselling popups on settings (e.g. avatar decorations)
 [class^="birthdayFeatureBorder"], // Birthday avatar decoration upselling
@@ -48,7 +48,7 @@ a[href*="/snowsgiving"], [class^="customizationSection"] > [class^="limitedFeatu
 #message [class*="colorPremiumGradient"], // Message right click menu super reactions
 [class^="burstReactionTooltipPrompt"], // Super reaction tooltip Nitro upsell
 [aria-label="Add Super Reaction"], // Message hover add super reaction icon
-[class^="side-"] > [class^="header-"] + [class^="premiumTab"] + [class^="item-"] + [class^="item-"] + [class^="item-"] + [class^="item-"], // Settings billing tab
+[class^="side_"] > [class^="header_"] + [class^="premiumTab"] + [class^="item_"] + [class^="item_"] + [class^="item_"] + [class^="item_"], // Settings billing tab
 #emoji-picker-tab-panel > [class*="emojiPickerHeader"]:first-child > [class^="tooltipContainer"]:nth-child(2) // Nitro call screen reactions
 {
   display: none !important;
