@@ -5,6 +5,7 @@
  * @version 1.0
 */
 [class^=channel-] > div > [href="/store"],
+[class^=channel-] > div > [href="/shop"],
 [class^=channelTextArea] [class^=buttons-] > button,
 [class^=upsellVisible-],
 [class^=premiumIconWrapper],

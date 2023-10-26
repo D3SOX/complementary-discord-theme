@@ -7,6 +7,7 @@
 
 // Hide Nitro upselling (by Vendicated & msm8916)
 [class^="channel-"] > div > [href="/store"], // Nitro Button above DM List
+[class^="channel-"] > div > [href="/shop"], // Shop Button above DM List
 [class^="channelTextArea"] [class^="buttons-"] > button, // Gift Button
 [class^="upsellVisible-"], // Banner Nitro Upsell Header in the user modal
 [class^="premiumIconWrapper"], // Nitro Icon in top right on Banners
