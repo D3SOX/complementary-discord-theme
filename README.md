@@ -9,7 +9,7 @@ A Discord theme which only provides some QOL enhancements that can be used on to
 # 🎉 Features
 
 - [Server Columns](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/ServerColumns)
-- [Settings Icons](https://github.com/crearts-community/Settings-Icons)
+- [Settings Icons](https://github.com/D3SOX/Settings-Icons)
 - [Code block Icons](https://github.com/snappercord/codeblock-icons)
 - [JoyPixels emojis](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/EmojiReplace)
 - Collapsed Search Bar
