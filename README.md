@@ -22,6 +22,7 @@ A Discord theme which only provides some QOL enhancements that can be used in ad
 - [SF Pro Display](https://developer.apple.com/fonts/)
 - [SF Mono](https://developer.apple.com/fonts/) _(For codeblocks)_
 
+If you are on Arch Linux just install `otf-san-francisco` and `otf-san-francisco-mono` with your favorite AUR helper. Otherwise download, extract and install them manually (e.g. using 7-Zip)
 
 # 📥 Installation
 
