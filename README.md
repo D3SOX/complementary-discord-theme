@@ -2,14 +2,14 @@
 
 <h2> 🧩 Complementary 🧩 </h2>
 
-A Discord theme which only provides some QOL enhancements that can be used on top of the official ones
+A Discord theme which only provides some QOL enhancements that can be used in addition to others
 
 </div>
 
 # 🎉 Features
 
 - [Server Columns](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/ServerColumns)
-- [Settings Icons](https://github.com/D3SOX/Settings-Icons)
+- [Settings Icons](https://github.com/D3SOX/SettingsIcons)
 - [Code block Icons](https://github.com/snappercord/codeblock-icons)
 - [JoyPixels emojis](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/EmojiReplace)
 - Collapsed Search Bar
