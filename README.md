@@ -10,7 +10,6 @@ A Discord theme which only provides some QOL enhancements that can be used in ad
 
 - [Server Columns](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/ServerColumns)
 - [Settings Icons](https://github.com/D3SOX/SettingsIcons)
-- [Code block Icons](https://github.com/snappercord/codeblock-icons)
 - [JoyPixels emojis](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/EmojiReplace)
 - Collapsed Search Bar
 - [Hide Nitro upselling](hide-nitro-upselling.theme.scss)
