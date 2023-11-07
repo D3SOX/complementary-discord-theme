@@ -32,7 +32,7 @@
 [class^="upsellBanner"], // Nitro upselling in screen share
 [class^="userPopoutInner"] > [class^="wrapper"] > [class^="banner"], // Nitro upselling in user popout when hovering over banner
 [class^="userPopoutInner"] > [class^="containerWrapper"], // Avatar decorations upselling in user popout
-[class*="premiumFeatureBannerBackground"], // Avatar decorations upselling in profiles settings tab
+[class*="premiumFeatureBannerBackground"], [class^="container_"]:has([class^="artContainer_"]), // Avatar decorations upselling in profiles settings tab
 [class*="premiumFeatureBorder"], // Profile effect upselling in profiles settings tab
 [class^="userPanelInner"] > [class*="inSidebar"], // Avatar decorations upselling in user side panel
 [class^="messageLengthUpsellContainer_"], // Message length Nitro upselling
