@@ -39,6 +39,7 @@
 [class^="tierCtaContainer"], [class^="tierCtaContainer"] + [class^="shelf"], // Nitro upselling in activities
 a[href*="/snowsgiving"], [class^="customizationSection"] > [class^="limitedFeatureBorder"], // Snowsgiving bs
 [class*="botTagRemix_"], // Remix using mobile app ad
+[class^="nitroFileSizeUpsell__"], // Large file upload nitro upselling
 [class^="upsellOverlayContainer_"], // Upsell overlay in profiles tab
 [class*="sansAttachButton"] > [class^="buttons"] > [class^="container"], // Christmas gifting button
 [id^="popout"] [class*="contentPremium"], // Nitro upselling popups on settings (e.g. avatar decorations)
