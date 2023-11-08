@@ -34,6 +34,7 @@
 [class^=messageLengthUpsellContainer_],
 [class^=tierCtaContainer], [class^=tierCtaContainer] + [class^=shelf],
 a[href*="/snowsgiving"], [class^=customizationSection] > [class^=limitedFeatureBorder],
+[class*=botTagRemix_],
 [class^=upsellOverlayContainer_],
 [class*=sansAttachButton] > [class^=buttons] > [class^=container],
 [id^=popout] [class*=contentPremium],
