@@ -38,7 +38,7 @@ If you want the features listed above click here
   - Open settings, scroll to the bottom on the left and click on the OpenAsar version, then click on Theming
   - Add a new line with this content: `@import url(https://d3sox.github.io/complementary-discord-theme/complementary.theme.css);`
 
-- [Powercord](https://github.com/powercord-org/powercord/)/[Replugged](https://github.com/replugged-org/replugged)
+- [Replugged](https://github.com/replugged-org/replugged)
   - Open your themes folder and clone this repository
     ```sh
     git clone https://github.com/D3SOX/complementary-discord-theme
@@ -63,12 +63,12 @@ If you only want the Nitro upselling styles click here
   - Open settings, scroll to the bottom on the left and click on the OpenAsar version, then click on Theming
   - Add a new line with this content: `@import url(https://d3sox.github.io/complementary-discord-theme/hide-nitro-upselling.theme.css);`
 
-- [Powercord](https://github.com/powercord-org/powercord/)/[Replugged](https://github.com/replugged-org/replugged)
+- [Replugged](https://github.com/replugged-org/replugged)
   - Open your themes folder and clone this repository
     ```sh
     git clone https://github.com/D3SOX/complementary-discord-theme
     ```
-  - Change `complementary.theme.css` to `hide-nitro-upselling.theme.css` in `complementary-discord-theme/powercord_manifest.json`
+  - Change `complementary.theme.css` to `hide-nitro-upselling.theme.css` in `complementary-discord-theme/manifest.json`
 
 - [BetterDiscord](https://github.com/BetterDiscord/BetterDiscord)
 
