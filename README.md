@@ -32,7 +32,7 @@ If you want the features listed above click here
 </summary>
 
 - [Vencord](https://github.com/Vendicated/Vencord)
-  - Open settings, click on Vencord Themes
+  - Open settings, click on Themes under Vencord then click on Online Themes
   - Add a new line with this content: `https://d3sox.github.io/complementary-discord-theme/complementary.theme.css`
 - [OpenAsar](https://github.com/GooseMod/OpenAsar)
   - Open settings, scroll to the bottom on the left and click on the OpenAsar version, then click on Theming
@@ -57,7 +57,7 @@ If you only want the Nitro upselling styles click here
 </summary>
 
 - [Vencord](https://github.com/Vendicated/Vencord)
-  - Open settings, click on Vencord Themes
+  - Open settings, click on Themes under Vencord then click on Online Themes
   - Add a new line with this content: `https://d3sox.github.io/complementary-discord-theme/hide-nitro-upselling.theme.css`
 - [OpenAsar](https://github.com/GooseMod/OpenAsar)
   - Open settings, scroll to the bottom on the left and click on the OpenAsar version, then click on Theming
