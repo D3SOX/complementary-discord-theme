@@ -32,7 +32,6 @@
 [class*=premiumFeatureBorder], [class^=customizationSection__]:has([class^=nitroWheel__]),
 [class^=userPanelInner] > [class*=inSidebar],
 [class^=messageLengthUpsellContainer_],
-[class^=tierCtaContainer], [class^=tierCtaContainer] + [class^=shelf],
 a[href*="/snowsgiving"], [class^=customizationSection] > [class^=limitedFeatureBorder],
 [class*=botTagRemix_],
 [class^=nitroFileSizeUpsell__],

@@ -36,7 +36,6 @@
 [class*="premiumFeatureBorder"], [class^="customizationSection__"]:has([class^="nitroWheel__"]), // Profile effect upselling in profiles settings tab
 [class^="userPanelInner"] > [class*="inSidebar"], // Avatar decorations upselling in user side panel
 [class^="messageLengthUpsellContainer_"], // Message length Nitro upselling
-[class^="tierCtaContainer"], [class^="tierCtaContainer"] + [class^="shelf"], // Nitro upselling in activities
 a[href*="/snowsgiving"], [class^="customizationSection"] > [class^="limitedFeatureBorder"], // Snowsgiving bs
 [class*="botTagRemix_"], // Remix using mobile app ad
 [class^="nitroFileSizeUpsell__"], // Large file upload nitro upselling
