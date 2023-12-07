@@ -51,7 +51,7 @@ a[href*="/snowsgiving"], [class^="customizationSection"] > [class^="limitedFeatu
 [class*="cozyMessage"] > [class*="buttonContainer"] > [class*="buttons"] > [class*="wrapper"] > [aria-label*="Add Super Reaction"], // Message Hover menu super reactions
 [id^="popout"] [class*="colorPremiumGradient"], // Message Hover overflow menu super reactions
 #message [class*="colorPremiumGradient"], // Message right click menu super reactions
-[class^="notAppAsidePanel__"] > [class^="layerContainer_"] > [id^="popout_"]:has([class*="animatorRight__"]), // Profile style gift upselling
+[class^="notAppAsidePanel__"] > [class^="layerContainer_"] > [id^="popout_"] > [class^="animatorRight__"] > div:has([class*="artInline_"]), // Profile style gift upselling
 [class^="burstReactionTooltipPrompt"], // Super reaction tooltip Nitro upsell
 [aria-label="Add Super Reaction"], // Message hover add super reaction icon
 [class^="accountProfilePopoutWrapper_"] > [class^="popoutContainer__"] > [class^="container__"], // Nitro profile decorations upselling in my profile popout
