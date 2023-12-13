@@ -47,6 +47,7 @@ a[href*="/snowsgiving"], [class^=customizationSection] > [class^=limitedFeatureB
 [id^=popout] [class*=colorPremiumGradient],
 #message [class*=colorPremiumGradient],
 [class^=notAppAsidePanel__] > [class^=layerContainer_] > [id^=popout_] > [class^=animatorRight__] > div:has([class*=artInline_]),
+[class^=notAppAsidePanel__] > [class^=layerContainer_] > [id^=popout_] > [class^=animatorBottom_] > div:has(.image_f4d883),
 [class^=burstReactionTooltipPrompt],
 [aria-label="Add Super Reaction"],
 [class^=accountProfilePopoutWrapper_] > [class^=popoutContainer__] > [class^=container__],
