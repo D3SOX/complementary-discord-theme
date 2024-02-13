@@ -51,6 +51,7 @@ a[href*="/snowsgiving"], [class^=customizationSection] > [class^=limitedFeatureB
 [class^=burstReactionTooltipPrompt],
 #emoji-picker-tab-panel [class^=burstToggle],
 [aria-label="Add Super Reaction"],
+[class^=giftButtonContainer__],
 [class^=accountProfilePopoutWrapper_] > [class^=popoutContainer__] > [class^=container__],
 [class^=side_] > [class^=header_] + [class^=premiumTab] + [class^=item_] + [class^=item_] + [class^=item_] + [class^=item_],
 #emoji-picker-tab-panel > [class*=emojiPickerHeader]:first-child > [class^=tooltipContainer]:nth-child(2) {
