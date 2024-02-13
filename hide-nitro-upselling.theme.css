@@ -51,6 +51,8 @@ a[href*="/snowsgiving"], [class^=customizationSection] > [class^=limitedFeatureB
 [class^=burstReactionTooltipPrompt],
 #emoji-picker-tab-panel [class^=burstToggle],
 [aria-label="Add Super Reaction"],
+[aria-label=GET_PREMIUM],
+button:has([class*=premiumSubscribeButton]),
 [class^=giftButtonContainer__],
 [class^=accountProfilePopoutWrapper_] > [class^=popoutContainer__] > [class^=container__],
 [class^=side_] > [class^=header_] + [class^=premiumTab] + [class^=item_] + [class^=item_] + [class^=item_] + [class^=item_],
