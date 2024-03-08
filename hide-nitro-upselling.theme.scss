@@ -57,6 +57,7 @@ a[href*="/snowsgiving"], [class^="customizationSection"] > [class^="limitedFeatu
 [aria-label="Add Super Reaction"], // Message hover add super reaction icon
 [aria-label="GET_PREMIUM"], // Nitro upselling in emoji popup menu
 button:has([class*="premiumSubscribeButton"]), // Nitro upselling in emoji popup menu
+[class*="autocompleteInner__"]:has([class*="premiumHeader_"]) [class*="nitroTopDividerContainer__"], [class*="autocompleteInner__"]:has([class*="premiumHeader_"]) [class*="premiumHeader_"], [class*="autocompleteInner__"]:has([class*="premiumHeader_"]) [class*="premiumHeader_"] ~ [class*="premiumEmoji__"], // Nitro upselling in emoji autocomplete
 [class^="giftButtonContainer__"], // Gift nitro button in profile sidebar
 [class^="accountProfilePopoutWrapper_"] > [class^="popoutContainer__"] > [class^="container__"], // Nitro profile decorations upselling in my profile popout
 [class^="side_"] > [class^="header_"] + [class^="premiumTab"] + [class^="item_"] + [class^="item_"] + [class^="item_"] + [class^="item_"], // Settings billing tab
