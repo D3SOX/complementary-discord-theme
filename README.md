@@ -33,10 +33,10 @@ If you want the features listed above click here
 
 - [Vencord](https://github.com/Vendicated/Vencord)
   - Open settings, click on Themes under Vencord then click on Online Themes
-  - Add a new line with this content: `https://d3sox.github.io/complementary-discord-theme/complementary.theme.css`
+  - Add a new line with this content: `https://d3sox.me/complementary-discord-theme/complementary.theme.css`
 - [OpenAsar](https://github.com/GooseMod/OpenAsar)
   - Open settings, scroll to the bottom on the left and click on the OpenAsar version, then click on Theming
-  - Add a new line with this content: `@import url(https://d3sox.github.io/complementary-discord-theme/complementary.theme.css);`
+  - Add a new line with this content: `@import url(https://d3sox.me/complementary-discord-theme/complementary.theme.css);`
 
 - [Replugged](https://github.com/replugged-org/replugged)
   - Open your themes folder and clone this repository
@@ -58,10 +58,10 @@ If you only want the Nitro upselling styles click here
 
 - [Vencord](https://github.com/Vendicated/Vencord)
   - Open settings, click on Themes under Vencord then click on Online Themes
-  - Add a new line with this content: `https://d3sox.github.io/complementary-discord-theme/hide-nitro-upselling.theme.css`
+  - Add a new line with this content: `https://d3sox.me/complementary-discord-theme/hide-nitro-upselling.theme.css`
 - [OpenAsar](https://github.com/GooseMod/OpenAsar)
   - Open settings, scroll to the bottom on the left and click on the OpenAsar version, then click on Theming
-  - Add a new line with this content: `@import url(https://d3sox.github.io/complementary-discord-theme/hide-nitro-upselling.theme.css);`
+  - Add a new line with this content: `@import url(https://d3sox.me/complementary-discord-theme/hide-nitro-upselling.theme.css);`
 
 - [Replugged](https://github.com/replugged-org/replugged)
   - Open your themes folder and clone this repository
