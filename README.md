@@ -12,7 +12,7 @@ A Discord theme which only provides some QOL enhancements that can be used in ad
 - [Settings Icons](https://github.com/D3SOX/SettingsIcons)
 - [JoyPixels emojis](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/EmojiReplace)
 - Collapsed Search Bar
-- [Hide Nitro upselling](hide-nitro-upselling.theme.scss)
+- [Hide Nitro upselling](hide-nitro-upselling.theme.scss) (Disclaimer: I am using the [Vencord FakeNitro plugin](https://vencord.dev/plugins/FakeNitro) so it doesn't cover these cases)
 - Hide Help Button
 - Custom Fonts
 
