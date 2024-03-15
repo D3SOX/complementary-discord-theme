@@ -52,6 +52,7 @@ a[href*="/snowsgiving"], [class^=customizationSection] > [class^=limitedFeatureB
 #emoji-picker-tab-panel [class^=burstToggle],
 [aria-label="Add Super Reaction"],
 [aria-label=GET_PREMIUM],
+[class^=emojiPickerListWrapper_] [class^=upsellContainer__],
 button:has([class*=premiumSubscribeButton]),
 [class*=autocompleteInner__]:has([class*=premiumHeader_]) [class*=nitroTopDividerContainer__], [class*=autocompleteInner__]:has([class*=premiumHeader_]) [class*=premiumHeader_], [class*=autocompleteInner__]:has([class*=premiumHeader_]) [class*=premiumHeader_] ~ [class*=premiumEmoji__],
 [class^=giftButtonContainer__],
@@ -68,6 +69,10 @@ button:has([class*=premiumSubscribeButton]),
 
 [class^=reactionInner][aria-label*="burst react"] {
   pointer-events: none;
+}
+
+[class*=categorySectionNitroLocked_] {
+  background-color: unset !important;
 }
 
 [class^=userPopoutInner] > [class^=containerWrapper] {
