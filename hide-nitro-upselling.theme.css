@@ -50,6 +50,7 @@ a[href*="/snowsgiving"], [class^=customizationSection] > [class^=limitedFeatureB
 [class^=notAppAsidePanel__] > [class^=layerContainer_] > [id^=popout_] > [class^=animatorBottom_] > div:has(.image_f4d883),
 [class^=burstReactionTooltipPrompt],
 #emoji-picker-tab-panel [class^=burstToggle],
+[class^=questsContainer__],
 [aria-label="Add Super Reaction"],
 [aria-label=GET_PREMIUM],
 [class^=emojiPickerListWrapper_] [class^=upsellContainer__],
