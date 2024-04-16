@@ -53,6 +53,7 @@ a[href*="/snowsgiving"], [class^="customizationSection"] > [class^="limitedFeatu
 [class^="notAppAsidePanel__"] > [class^="layerContainer_"] > [id^="popout_"] > [class^="animatorRight__"] > div:has([class*="artInline_"]), // Profile style gift upselling
 [class^="notAppAsidePanel__"] > [class^="layerContainer_"] > [id^="popout_"] > [class^="animatorBottom_"] > div:has(.image_f4d883), // Gift Nitro upselling
 [class^="burstReactionTooltipPrompt"], // Super reaction tooltip Nitro upsell
+[class^="upsellTooltipWrapper__"], // Notification sounds tooltip Nitro upsell
 #emoji-picker-tab-panel [class^=burstToggle], // Super reaction toggle in emoji picker
 [class^="questsContainer__"], // Quests
 [aria-label="Add Super Reaction"], // Message hover add super reaction icon
