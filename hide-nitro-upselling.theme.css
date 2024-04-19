@@ -80,3 +80,11 @@ button:has([class*=premiumSubscribeButton]),
 [class^=userPopoutInner] > [class^=containerWrapper] {
   top: 0 !important;
 }
+
+[class^=tier0Button],
+[class^=shinyButton]:not([class*=ctaButtonWrapper__]) {
+  color: red !important;
+  background-color: black !important;
+  cursor: not-allowed !important;
+  opacity: 0.5 !important;
+}
