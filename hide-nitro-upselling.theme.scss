@@ -42,6 +42,7 @@ a[href*="/snowsgiving"], [class^="customizationSection"] > [class^="limitedFeatu
 [class^="upsellOverlayContainer_"], // Upsell overlay in profiles tab
 [class*="sansAttachButton"] > [class^="buttons"] > [class^="container"], // Christmas gifting button
 [id^="popout"] [class*="contentPremium"], // Nitro upselling popups on settings (e.g. avatar decorations)
+[id^="popout"] [class*="upsellTooltipWrapper__"], // Notification sounds upselling
 [class^="birthdayFeatureBorder"], // Birthday avatar decoration upselling
 [class^="nitroAuthorBadgeContainer_"], // Nitro author badge upselling
 [class^="container_"]:has([class^="falloweenArtContainer_"]), // Halloween avatar decoration upselling
