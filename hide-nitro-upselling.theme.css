@@ -55,7 +55,7 @@ a[href*="/snowsgiving"], [class^=customizationSection] > [class^=limitedFeatureB
 [class^=questsContainer__],
 [aria-label="Add Super Reaction"],
 [aria-label=GET_PREMIUM],
-[id=gdm-context-notification-sounds], [id=user-context-notification-sounds],
+[id=gdm-context-notification-sounds], [id=user-context-notification-sounds], [id=guild-context-notification-sounds],
 [class^=emojiPickerListWrapper_] [class^=upsellContainer__],
 button:has([class*=premiumSubscribeButton]),
 [class*=autocompleteInner__]:has([class*=premiumHeader_]) [class*=nitroTopDividerContainer__], [class*=autocompleteInner__]:has([class*=premiumHeader_]) [class*=premiumHeader_], [class*=autocompleteInner__]:has([class*=premiumHeader_]) [class*=premiumHeader_] ~ [class*=premiumEmoji__],

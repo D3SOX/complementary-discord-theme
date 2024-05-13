@@ -59,7 +59,7 @@ a[href*="/snowsgiving"], [class^="customizationSection"] > [class^="limitedFeatu
 [class^="questsContainer__"], // Quests
 [aria-label="Add Super Reaction"], // Message hover add super reaction icon
 [aria-label="GET_PREMIUM"], // Nitro upselling in emoji popup menu
-[id="gdm-context-notification-sounds"], [id="user-context-notification-sounds"], // Notification sounds upselling in context menus
+[id="gdm-context-notification-sounds"], [id="user-context-notification-sounds"], [id="guild-context-notification-sounds"], // Notification sounds upselling in context menus
 [class^="emojiPickerListWrapper_"] [class^="upsellContainer__"], // Nitro upselling in emoji reaction menu
 button:has([class*="premiumSubscribeButton"]), // Nitro upselling in emoji popup menu
 [class*="autocompleteInner__"]:has([class*="premiumHeader_"]) [class*="nitroTopDividerContainer__"], [class*="autocompleteInner__"]:has([class*="premiumHeader_"]) [class*="premiumHeader_"], [class*="autocompleteInner__"]:has([class*="premiumHeader_"]) [class*="premiumHeader_"] ~ [class*="premiumEmoji__"], // Nitro upselling in emoji autocomplete
