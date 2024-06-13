@@ -38,6 +38,7 @@ a[href*="/snowsgiving"], [class^=customizationSection] > [class^=limitedFeatureB
 [class^=upsellOverlayContainer_],
 [class*=sansAttachButton] > [class^=buttons] > [class^=container],
 [id^=popout] [class*=contentPremium],
+[id^=popout]:has([class*=poweredByNitroContainer__]),
 [id^=popout] [class*=upsellTooltipWrapper__],
 [class^=birthdayFeatureBorder],
 [class^=nitroAuthorBadgeContainer_],
