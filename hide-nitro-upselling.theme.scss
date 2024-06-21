@@ -92,7 +92,7 @@ button:has([class*="premiumSubscribeButton"]), // Nitro upselling in emoji popup
 
 // Nitro subscribe buttons
 [class^="tier0Button"],
-[class^="shinyButton"]:not([class*="ctaButtonWrapper__"]) {
+[class^="shinyButton"]:not([class*="ctaButtonWrapper_"]) {
   //display: none !important;
   //pointer-events: none !important;
   color: red !important;

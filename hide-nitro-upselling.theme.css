@@ -86,7 +86,7 @@ button:has([class*=premiumSubscribeButton]),
 }
 
 [class^=tier0Button],
-[class^=shinyButton]:not([class*=ctaButtonWrapper__]) {
+[class^=shinyButton]:not([class*=ctaButtonWrapper_]) {
   color: red !important;
   background-color: black !important;
   cursor: not-allowed !important;
