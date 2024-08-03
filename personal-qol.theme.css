@@ -1,0 +1,55 @@
+/*
+ * @name Additional personal QOL stuff
+ * @description Some more personal QOL enhancements
+ * @author D3SOX
+ * @version 1.0
+*/
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css");
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/JoyPixels.css");
+:root {
+  --font-primary: "SF Pro Display", sans-serif;
+  --font-display: "SF Pro Display", sans-serif;
+  --font-code: "SF Mono", monospace;
+  --columns: 2;
+  --guildsize: 40;
+  --guildgap: 3;
+  --aligndms: 0;
+}
+
+#emoji-picker-tab-panel :is([class^=badgeLabel_], [class^=newlyAddedBadge]) {
+  display: none;
+}
+
+[class^=newlyAddedHighlight], [class^=newlyAddedHighlight]:hover {
+  border: none;
+}
+
+[class*=contents_] [class*=avatarDecoration_] {
+  display: none;
+}
+
+[class*=profileEffects] {
+  display: none;
+}
+
+[class^=bar_]:has([class^=voiceChannelsIcon_]) {
+  display: none;
+}
+
+[class^=messageAttachment_] [class^=lazyImg_] {
+  object-fit: contain !important;
+}
+
+[class^=imageWrapper_] img[class^=lazyImg] {
+  object-fit: contain !important;
+}
+
+[class^=anchor_][title*="\a"]::after {
+  content: " (" attr(href) ")";
+  color: gray;
+  font-size: 0.65em;
+}
+
+[class*=containerWithMargin_]:has([class^=progressBarContainer_]) {
+  display: none;
+}

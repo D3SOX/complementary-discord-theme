@@ -2,22 +2,10 @@
  * @name Complementary
  * @description QOL enhancements for Discord
  * @author D3SOX
- * @version 1.2
+ * @version 1.3
 */
-@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css");
 @import url("https://minidiscordthemes.github.io/SettingsIcons/SettingsIcons.theme.css");
-@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/JoyPixels.css");
 @import url("https://d3sox.github.io/complementary-discord-theme/hide-nitro-upselling.theme.css");
-:root {
-  --font-primary: "SF Pro Display", sans-serif;
-  --font-display: "SF Pro Display", sans-serif;
-  --font-code: "SF Mono", monospace;
-  --columns: 2;
-  --guildsize: 40;
-  --guildgap: 3;
-  --aligndms: 0;
-}
-
 [class^=toolbar] a[href="https://support.discord.com"] {
   display: none;
 }
