@@ -29,6 +29,13 @@ There are 3 variants of the theme
 - [Server Columns](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/ServerColumns)
 - Custom Fonts
 - [JoyPixels emojis](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/EmojiReplace)
+- Don't highlight new Emojis
+- Remove avatar decorations in chat
+- Remove profile effects
+- Remove "x in voice" scroll indicator
+- Restore old attachment sizing behavior
+- Reveal masked hyperlinked
+- Remove boosting progressbar
 
 ### ❕ Required Fonts
 
