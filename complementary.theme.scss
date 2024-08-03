@@ -20,15 +20,12 @@
 :root {
   --font-primary: "SF Pro Display", sans-serif;
   --font-display: "SF Pro Display", sans-serif;
+  --font-code: "SF Mono", monospace;
 
   --columns: 2; // default: 3 (amount of servercolumns)
   --guildsize: 40; // default: 50 (serversize in pixel)
   --guildgap: 3; // default: 3 (top/bottom gap between servers in pixel)
   --aligndms: 0; // default: 0 (should DMs be aligned in columns: 0 = no, 1 = yes)
-}
-
-code {
-  font-family: "SF Mono", monospace !important;
 }
 
 // Hide Help Button

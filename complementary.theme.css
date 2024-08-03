@@ -11,14 +11,11 @@
 :root {
   --font-primary: "SF Pro Display", sans-serif;
   --font-display: "SF Pro Display", sans-serif;
+  --font-code: "SF Mono", monospace;
   --columns: 2;
   --guildsize: 40;
   --guildgap: 3;
   --aligndms: 0;
-}
-
-code {
-  font-family: "SF Mono", monospace !important;
 }
 
 [class^=toolbar] a[href="https://support.discord.com"] {
