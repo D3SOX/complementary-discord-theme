@@ -6,6 +6,7 @@
 */
 @import url("https://hugo9655.github.io/SettingsIcons/SettingsIcons.theme.css");
 @import url("https://d3sox.github.io/complementary-discord-theme/hide-nitro-upselling.theme.css");
+@import url("https://raw.githubusercontent.com/surgedevs/visual-refresh-compact-title-bar/refs/heads/main/hidden.css");
 [class^=toolbar] a[href="https://support.discord.com"] {
   display: none;
 }
