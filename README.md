@@ -20,7 +20,10 @@ There are 3 variants of the theme
 ## Complementary
 
 - [Settings Icons](https://github.com/MiniDiscordThemes/SettingsIcons)
-- Collapsed Search Bar
+- Collapsed Search Bar (Currently broken)
+- Hide activities on top of members list
+- Visual Refresh: Bring back the round server icons
+- Visual Refresh: Move chatbar to bottom
 - [Hide Nitro upselling](hide-nitro-upselling.theme.scss) (Disclaimer: I am using the [Vencord FakeNitro plugin](https://vencord.dev/plugins/FakeNitro) so it doesn't cover these cases)
 - Hide Help Button
 
