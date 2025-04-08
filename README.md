@@ -42,18 +42,18 @@ There are 4 variants of the theme
 - Reveal masked hyperlinked
 - Remove boosting progressbar
 
-## Spotify Controls
-
-- Adds a rotating turntable effect for the Spotify album image
-- Background blur and brightness effects for the Spotify player
-- Pause functionality for the turntable animation when the track is paused
-
 ### ❕ Required Fonts
 
 - [SF Pro Display](https://developer.apple.com/fonts/)
 - [SF Mono](https://developer.apple.com/fonts/) _(For codeblocks)_
 
 If you are on Arch Linux just install [`otf-san-francisco`](https://aur.archlinux.org/packages/otf-san-francisco) and [`otf-san-francisco-mono`](https://aur.archlinux.org/packages/otf-san-francisco-mono) with your favorite AUR helper. Otherwise download, extract and install them manually (e.g. using 7-Zip)
+
+## Spotify Controls
+
+- Adds a rotating turntable effect for the Spotify album image
+- Background blur and brightness effects for the Spotify player
+- Pause functionality for the turntable animation when the track is paused
 
 # 📥 Installation
 
