@@ -53,3 +53,8 @@
 [class*=containerWithMargin_]:has([class^=progressBarContainer_]) {
   display: none;
 }
+
+[class*=closedFolderIconWrapper_] > [class*=guildIcon_],
+[data-list-item-id*=guildsnav_] > [class*=icon_] {
+  border-radius: 50% !important;
+}
