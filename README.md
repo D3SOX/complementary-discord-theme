@@ -49,6 +49,18 @@ There are 4 variants of the theme
 
 If you are on Arch Linux just install [`otf-san-francisco`](https://aur.archlinux.org/packages/otf-san-francisco) and [`otf-san-francisco-mono`](https://aur.archlinux.org/packages/otf-san-francisco-mono) with your favorite AUR helper. Otherwise download, extract and install them manually (e.g. using 7-Zip)
 
+### 🧮 Customize Server Columns
+
+If you are not a fan of the server columns you can add and adjust the following CSS (set to 1 to revert)
+```css
+:root {
+  --columns: 2;
+  --guildsize: 40;
+  --guildgap: 3;
+  --aligndms: 0;
+}
+```
+
 ## Spotify Controls
 
 - Adds a rotating turntable effect for the Spotify album image
@@ -92,15 +104,3 @@ If you are on Arch Linux just install [`otf-san-francisco`](https://aur.archlinu
   - Nitro Upselling: [`hide-nitro-upselling.betterdiscord.theme.css`](https://raw.githubusercontent.com/D3SOX/complementary-discord-theme/master/hide-nitro-upselling.betterdiscord.theme.css) 
   - Personal QOL: [`personal-qol.betterdiscord.theme.css`](https://raw.githubusercontent.com/D3SOX/complementary-discord-theme/master/personal-qol.betterdiscord.theme.css)
   - Spotify Controls: [`spotify-controls.betterdiscord.theme.css`](https://raw.githubusercontent.com/D3SOX/complementary-discord-theme/master/spotify-controls.betterdiscord.theme.css)
-
-# 🧮 Customize Server Columns
-
-Add and adjust the following CSS
-```css
-:root {
-  --columns: 2;
-  --guildsize: 40;
-  --guildgap: 3;
-  --aligndms: 0;
-}
-```
