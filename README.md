@@ -8,14 +8,16 @@ A Discord theme which only provides some QOL enhancements that can be used in ad
 
 # 🎉 Features
 
-There are 3 variants of the theme
+There are 4 variants of the theme
 - [Complementary](#complementary)
   - Includes all enhancement that I think everyone likes
   - Includes the Nitro upselling styles (for historical reasons)
 - Nitro Upselling
   - Only includes the Nitro upselling styles
 - [Personal QOL](#personal-qol)
-  - Includes some more enhancements that I personally like 
+  - Includes some more enhancements that I personally like
+- [Spotify Controls](#spotify-controls)
+  - Includes my Spotify controls customizations (Turntable with pause functionality)
 
 ## Complementary
 
@@ -40,6 +42,12 @@ There are 3 variants of the theme
 - Reveal masked hyperlinked
 - Remove boosting progressbar
 
+## Spotify Controls
+
+- Adds a rotating turntable effect for the Spotify album image
+- Background blur and brightness effects for the Spotify player
+- Pause functionality for the turntable animation when the track is paused
+
 ### ❕ Required Fonts
 
 - [SF Pro Display](https://developer.apple.com/fonts/)
@@ -55,6 +63,7 @@ If you are on Arch Linux just install [`otf-san-francisco`](https://aur.archlinu
     - Complementary: `https://d3sox.me/complementary-discord-theme/complementary.theme.css`
     - Nitro Upselling: `https://d3sox.me/complementary-discord-theme/hide-nitro-upselling.theme.css`
     - Personal QOL: `https://d3sox.me/complementary-discord-theme/personal-qol.theme.css`
+    - Spotify Controls: `https://d3sox.me/complementary-discord-theme/spotify-controls.theme.css`
 
 ## [OpenAsar](https://github.com/GooseMod/OpenAsar)
 - Open settings, scroll to the bottom on the left and click on the OpenAsar version, then click on Theming
@@ -62,9 +71,11 @@ If you are on Arch Linux just install [`otf-san-francisco`](https://aur.archlinu
     - Complementary: `@import url(https://d3sox.me/complementary-discord-theme/complementary.theme.css);`
     - Nitro Upselling: `@import url(https://d3sox.me/complementary-discord-theme/hide-nitro-upselling.theme.css);`
     - Personal QOL: `@import url(https://d3sox.me/complementary-discord-theme/personal-qol.theme.css);`
+    - Spotify Controls: `@import url(https://d3sox.me/complementary-discord-theme/spotify-controls.theme.css);`
 
 ## [Replugged](https://github.com/replugged-org/replugged)
-- Open your themes folder and clone this repository
+- Open your themes folder and clone this repository  
+(if you want to apply multiple ones clone it multiple times with a different name)
   ```sh
   git clone https://github.com/D3SOX/complementary-discord-theme
   ```
@@ -72,6 +83,7 @@ If you are on Arch Linux just install [`otf-san-francisco`](https://aur.archlinu
   - Complementary: `complementary.theme.css`
   - Nitro Upselling: `hide-nitro-upselling.theme.css`
   - Personal QOL: `personal-qol.theme.css`
+  - Spotify Controls: `spotify-controls.theme.css`
 
 ## [BetterDiscord](https://github.com/BetterDiscord/BetterDiscord)
 - Open your themes folder
@@ -79,6 +91,7 @@ If you are on Arch Linux just install [`otf-san-francisco`](https://aur.archlinu
   - Complementary: [`complementary.betterdiscord.theme.css`](https://raw.githubusercontent.com/D3SOX/complementary-discord-theme/master/complementary.betterdiscord.theme.css)
   - Nitro Upselling: [`hide-nitro-upselling.betterdiscord.theme.css`](https://raw.githubusercontent.com/D3SOX/complementary-discord-theme/master/hide-nitro-upselling.betterdiscord.theme.css) 
   - Personal QOL: [`personal-qol.betterdiscord.theme.css`](https://raw.githubusercontent.com/D3SOX/complementary-discord-theme/master/personal-qol.betterdiscord.theme.css)
+  - Spotify Controls: [`spotify-controls.betterdiscord.theme.css`](https://raw.githubusercontent.com/D3SOX/complementary-discord-theme/master/spotify-controls.betterdiscord.theme.css)
 
 # 🧮 Customize Server Columns
 

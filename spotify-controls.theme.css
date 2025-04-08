@@ -1,0 +1,48 @@
+/* SpotifyControls Customization */
+/* SpotifyControls BG */
+@keyframes vc-spotify-rotate-anim {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#vc-spotify-player {
+  --vc-spotify-track-image-blur: 30px;
+  --vc-spotify-track-image-brightness: 0.75;
+  position: relative;
+  overflow: hidden;
+  background: none !important;
+}
+
+#vc-spotify-player::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  height: 120%;
+  width: 120%;
+  background-image: var(--vc-spotify-track-image);
+  filter: blur(var(--vc-spotify-track-image-blur)) brightness(var(--vc-spotify-track-image-brightness));
+  z-index: -1;
+  background-size: 120% 120%;
+  transform-origin: center;
+  animation: vc-spotify-rotate-anim 15s linear infinite;
+  animation-play-state: paused;
+}
+
+/* Spotify album image turntable */
+#vc-spotify-album-image {
+  border-radius: 50%;
+  animation: vc-spotify-rotate-anim 10s linear infinite;
+  animation-play-state: paused;
+}
+
+#vc-spotify-player:has(.vc-spotify-pause) #vc-spotify-album-image {
+  animation-play-state: running;
+}
+
+#vc-spotify-player:has(.vc-spotify-pause)::before {
+  animation-play-state: running;
+}
