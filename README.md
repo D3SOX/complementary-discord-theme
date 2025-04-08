@@ -63,6 +63,8 @@ If you are not a fan of the server columns you can add and adjust the following 
 
 ## Spotify Controls
 
+![Screencast](.github/screencast.gif)
+
 - Adds a rotating turntable effect for the Spotify album image
 - Background blur and brightness effects for the Spotify player
 - Pause functionality for the turntable animation when the track is paused
