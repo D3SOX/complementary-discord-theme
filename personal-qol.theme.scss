@@ -68,6 +68,11 @@
   display: none;
 }
 
+// Hide useless activity in members list
+[class^="membersGroup_"]:has([class^="toggleExpandIcon_"]) {
+  display: none !important;
+}
+
 // Visual Refresh: Bring back the round server icons
 [class*="closedFolderIconWrapper_"] > [class*="guildIcon_"],
 [data-list-item-id*="guildsnav_"] > [class*="icon_"] {

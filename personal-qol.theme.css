@@ -55,6 +55,10 @@
   display: none;
 }
 
+[class^=membersGroup_]:has([class^=toggleExpandIcon_]) {
+  display: none !important;
+}
+
 [class*=closedFolderIconWrapper_] > [class*=guildIcon_],
 [data-list-item-id*=guildsnav_] > [class*=icon_] {
   border-radius: 50% !important;
