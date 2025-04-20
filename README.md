@@ -17,7 +17,7 @@ There are 4 variants of the theme
 - [Personal QOL](#personal-qol)
   - Includes some more enhancements that I personally like
 - [Spotify Controls](#spotify-controls)
-  - Includes my Spotify controls customizations (Turntable with pause functionality)
+  - Includes my Vencord Spotify controls customizations (Turntable with pause functionality)
 
 ## Complementary
 
@@ -86,7 +86,6 @@ If you are not a fan of the server columns you can add and adjust the following 
     - Complementary: `@import url(https://d3sox.me/complementary-discord-theme/complementary.theme.css);`
     - Nitro Upselling: `@import url(https://d3sox.me/complementary-discord-theme/hide-nitro-upselling.theme.css);`
     - Personal QOL: `@import url(https://d3sox.me/complementary-discord-theme/personal-qol.theme.css);`
-    - Spotify Controls: `@import url(https://d3sox.me/complementary-discord-theme/spotify-controls.theme.css);`
 
 ## [Replugged](https://github.com/replugged-org/replugged)
 - Open your themes folder and clone this repository  
@@ -98,7 +97,6 @@ If you are not a fan of the server columns you can add and adjust the following 
   - Complementary: `complementary.theme.css`
   - Nitro Upselling: `hide-nitro-upselling.theme.css`
   - Personal QOL: `personal-qol.theme.css`
-  - Spotify Controls: `spotify-controls.theme.css`
 
 ## [BetterDiscord](https://github.com/BetterDiscord/BetterDiscord)
 - Open your themes folder
@@ -106,4 +104,3 @@ If you are not a fan of the server columns you can add and adjust the following 
   - Complementary: [`complementary.betterdiscord.theme.css`](https://raw.githubusercontent.com/D3SOX/complementary-discord-theme/master/complementary.betterdiscord.theme.css)
   - Nitro Upselling: [`hide-nitro-upselling.betterdiscord.theme.css`](https://raw.githubusercontent.com/D3SOX/complementary-discord-theme/master/hide-nitro-upselling.betterdiscord.theme.css) 
   - Personal QOL: [`personal-qol.betterdiscord.theme.css`](https://raw.githubusercontent.com/D3SOX/complementary-discord-theme/master/personal-qol.betterdiscord.theme.css)
-  - Spotify Controls: [`spotify-controls.betterdiscord.theme.css`](https://raw.githubusercontent.com/D3SOX/complementary-discord-theme/master/spotify-controls.betterdiscord.theme.css)
