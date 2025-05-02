@@ -16,6 +16,13 @@
   background: none !important;
 }
 
+#vc-spotify-album-image {
+  /* Set a specific width to make it always rectangular to fix Turntable (for example when playing a music video) */
+  width: 43.188px;
+  height: 43.188px;
+  object-fit: cover;
+}
+
 #vc-spotify-player::before {
   content: "";
   position: absolute;
