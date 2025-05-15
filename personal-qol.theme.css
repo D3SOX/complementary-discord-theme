@@ -56,7 +56,7 @@
   color: var(--interactive-hover);
 }
 
-[class*=clanTagChiplet__], [class*=clanTag_] {
+[class*=clanTagChiplet_], [class*=clanTag_] {
   display: none;
 }
 
