@@ -42,6 +42,7 @@ There are 4 variants of the theme
 - Restore old attachment sizing behavior
 - Reveal masked hyperlinked
 - Remove boosting progressbar
+- Remove nameplates & clan tags
 
 ### ❕ Required Fonts
 

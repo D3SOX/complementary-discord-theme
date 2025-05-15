@@ -32,6 +32,34 @@
   display: none;
 }
 
+[style^="background: linear-gradient(90deg"]:has([src*="/nameplates/"]) {
+  display: none;
+}
+
+[class*=dm_]:has([class*=linkPlated_]) [class*=linkPlated_] {
+  padding-right: var(--space-16);
+}
+[class*=dm_]:has([class*=linkPlated_]) [class*=closeButtonPlated_] {
+  opacity: 0.7;
+}
+[class*=dm_]:has([class*=linkPlated_]) [class*=closeButtonPlated_]:hover {
+  opacity: 1;
+}
+[class*=dm_]:has([class*=linkPlated_]) [class*=closeButtonPlated_] [class^=innerCloseButtonPlated] {
+  opacity: unset;
+  background: none;
+}
+[class*=dm_]:has([class*=linkPlated_]) [class*=closeButtonPlated_] [class^=innerCloseButtonPlated] svg {
+  color: inherit;
+}
+[class*=dm_]:has([class*=linkPlated_]) [class*=closeButtonPlated_] [class^=innerCloseButtonPlated] svg:is(:hover, :focus-within) {
+  color: var(--interactive-hover);
+}
+
+[class*=clanTagChiplet__], [class*=clanTag_] {
+  display: none;
+}
+
 [class^=bar_]:has([class^=voiceChannelsIcon_]) {
   display: none;
 }
