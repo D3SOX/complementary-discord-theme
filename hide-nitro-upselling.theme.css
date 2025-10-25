@@ -68,6 +68,7 @@ button:has([class*=premiumSubscribeButton]),
 div[class*=focusLock_]:has([class*=freeTrialPillWithSparkles_]),
 [class^=base_] > [class*=notice_][class*=colorPremiumTier2_]:has([class*=premiumIcon_]),
 [class^=accountProfilePopoutWrapper_] > [class^=popoutContainer__] > [class^=container__],
+[class^=profileButtons__] span:has(button[aria-label*=Shop]),
 [class^=side_] > [class^=header_] + [class^=premiumTab] + [class^=item_] + [class^=item_] + [class^=item_] + [class^=item_],
 #emoji-picker-tab-panel > [class*=emojiPickerHeader]:first-child > [class^=tooltipContainer]:nth-child(2) {
   display: none !important;

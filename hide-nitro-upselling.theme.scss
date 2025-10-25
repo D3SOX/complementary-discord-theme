@@ -73,6 +73,7 @@ button:has([class*="premiumSubscribeButton"]), // Nitro upselling in emoji popup
 div[class*="focusLock_"]:has([class*="freeTrialPillWithSparkles_"]), // Nitro 1 month free upselling modal
 [class^="base_"] > [class*="notice_"][class*="colorPremiumTier2_"]:has([class*="premiumIcon_"]), // Nitro resubscribe nag
 [class^="accountProfilePopoutWrapper_"] > [class^="popoutContainer__"] > [class^="container__"], // Nitro profile decorations upselling in my profile popout
+[class^="profileButtons__"] span:has(button[aria-label*="Shop"]), // Shop button in profile modal
 [class^="side_"] > [class^="header_"] + [class^="premiumTab"] + [class^="item_"] + [class^="item_"] + [class^="item_"] + [class^="item_"], // Settings billing tab
 #emoji-picker-tab-panel > [class*="emojiPickerHeader"]:first-child > [class^="tooltipContainer"]:nth-child(2) // Nitro call screen reactions
 {
