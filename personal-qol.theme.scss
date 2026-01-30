@@ -98,6 +98,6 @@
 }
 
 // Remove boosting progress bar
-[class*="containerWithMargin_"]:has([class^="progressBarContainer_"]) {
+[class*="containerWithMargin_"]:has([class*="boostCountText_"]) {
   display: none;
 }

@@ -78,6 +78,6 @@
   font-size: 0.65em;
 }
 
-[class*=containerWithMargin_]:has([class^=progressBarContainer_]) {
+[class*=containerWithMargin_]:has([class*=boostCountText_]) {
   display: none;
 }
